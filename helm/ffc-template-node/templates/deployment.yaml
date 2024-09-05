@@ -1,8 +1,0 @@
-{{- include "ffc-helm-library.deployment" (list . "fcp-fd-auth.deployment") -}}
-{{- define "fcp-fd-auth.deployment" -}}
-spec:
-  template:
-    spec:
-      containers:
-      - {{ include "ffc-helm-library.container" (list . "fcp-fd-auth.container") }}
-{{- end -}}
