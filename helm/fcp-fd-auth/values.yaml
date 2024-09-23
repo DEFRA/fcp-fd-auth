@@ -1,4 +1,4 @@
-environment: production
+environment: development
 environmentCode:
 name: fcp-fd-auth
 namespace: fcp-fd
