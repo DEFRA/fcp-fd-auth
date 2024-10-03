@@ -8,8 +8,8 @@ services:
     image: fcp-fd-auth-development
     container_name: fcp-fd-auth-development
     ports:
-      - "3022:3022"
-      - "9022:9229"
+      - "3033:3033"
+      - "9033:9229"
     volumes:
       - ./app:/home/node/app
       - ./package.json:/home/node/package.json

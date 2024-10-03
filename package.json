@@ -1,6 +1,6 @@
 {
   "name": "fcp-fd-auth",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "repo for authorisation layer",
   "homepage": "https://github.com/DEFRA/fcp-fd-auth",
   "main": "app/index.js",
@@ -16,7 +16,8 @@
   },
   "author": "Defra",
   "contributors": [
-    "Amirs Ismuhametovs amirs.ishmuhametovs@defra.gov.uk"
+    "Amirs Ismuhametovs amirs.ishmuhametovs@defra.gov.uk",
+    "Rana Salem <rana.salem@defra.gov.uk>"
   ],
   "license": "OGL-UK-3.0",
   "dependencies": {
